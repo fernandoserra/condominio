@@ -3,12 +3,34 @@
 	background-image: url("../diseno/img1.jpg");
 	margin:0px;
 	min-height: 710px;
-	/*background-position: 5%;*/
+	/*background-position: 50%;*/
 	background-attachment: fixed;
   background-size: cover;
-	/*position: relative;
-    overflow: hidden;*/
+	position: relative; /*agregado*/
+  overflow: hidden; /*agregado*/
+
 }
+
+.t_c{
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 12%;
+
+}
+.c_t{
+  margin-top: 10px;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.f_b{
+  background: rgba(35,35,35,0.6) ;
+  border-radius:10px;  
+  display: inline-block; 
+  padding: 10px;
+}
+
 #caracteristicas{
 	background-image: url("../diseno/fondoCondominio.jpg");
 	/*margin:0px;*/
